@@ -7,31 +7,23 @@
 <body>
   <div class="container">
     <header>
-      <h1>Really Awesome Music Site</h1>
+      <h1>Itunes Music Search</h1>
     </header>
-  </div>
-</div>
-</div>
-<section>
-<section>
-<div id='music-player'>
-
-  <audio class="music-player" controls="controls" src=""></audio>
-    </div>
-  </section>\
+    <section class="player">
+      <audio class="music-player" controls="controls" src="" autoplay="true"></audio>
+    </section>
     <section class="search">
       <form class="search-form">
-        <input type = 'text' name = 'search-music' class = 'search-music' placeholder = "Search">
-      <input type = 'submit' name = 'search-button' class = 'search-button'>
-    </form>
-
+        <input type="text" name="search" class="searchBar" placeholder="Search for Artist">
       </form>
     </section>
-    <section class="results"></section>
+    <section class="results">
+      <h3>Search Results: </h3>
+      <div class="resultlist">
+
+      </div>
+    </section>
   </div>
-
-
-
   <script src="main.js"></script>
 </body>
 </html>
